@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Pretty Center | Swim & Gym</title>
+
+    <meta name="description" content="Everything you need for swimming & fitness">
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
@@ -20,72 +25,141 @@
 <div class="container">
 
     <div class="card">
-<div class="hero">
-    <img src="cover.jpg" class="cover" alt="Pretty Center">
-    <div class="hero-overlay"></div>
-</div>
 
+        <!-- Cover Image -->
+        <div class="hero">
 
+            <img src="cover.jpg" alt="Pretty Center" class="cover">
 
-<h1>Pretty Center</h1>
-<h2>Swim & Gym</h2>
-
-<p class="subtitle">
-Everything you need for swimming & fitness
-</p>
-
-<p class="subtitle-ar">
-كل ما تحتاجه للسباحة والرياضة
-</p>
-        </p>
-
-        <div class="buttons">
-
-            <a href="#" class="btn instagram">
-                <i class="fab fa-instagram"></i>
-                Instagram
-            </a>
-
-            <a href="#" class="btn tiktok">
-                <i class="fab fa-tiktok"></i>
-                TikTok
-            </a>
-
-            <a href="#" class="btn snapchat">
-                <i class="fab fa-snapchat"></i>
-                Snapchat
-            </a>
-
-            <a href="#" class="btn whatsapp">
-                <i class="fab fa-whatsapp"></i>
-                WhatsApp
-            </a>
-
-            <a href="#" class="btn call">
-                <i class="fas fa-phone"></i>
-                Call Now
-            </a>
-
-            <a href="#" class="btn location">
-                <i class="fas fa-location-dot"></i>
-                Store Location
-            </a>
+            <div class="overlay"></div>
 
         </div>
 
-        <div class="info">
+        <!-- Title -->
 
-            <p>
-                <i class="fas fa-location-dot"></i>
-                Duhok - Iraq
+        <div class="content">
+
+            <h1>Pretty Center</h1>
+
+            <h2>Swim & Gym</h2>
+
+            <p class="subtitle">
+                Everything you need for swimming & fitness
             </p>
 
-            <p>
-                <i class="far fa-clock"></i>
-                Open Daily
+            <p class="subtitle-ar">
+                كل ما تحتاجه للسباحة والرياضة
             </p>
 
-            <h3>9:00 AM – 8:00 PM</h3>
+            <!-- Buttons -->
+
+            <div class="buttons">
+
+                <a href="#" class="btn instagram">
+
+                    <div class="left">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </div>
+
+                    <i class="fas fa-chevron-right"></i>
+
+                </a>
+
+                <a href="#" class="btn tiktok">
+
+                    <div class="left">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </div>
+
+                    <i class="fas fa-chevron-right"></i>
+
+                </a>
+
+                <a href="#" class="btn snapchat">
+
+                    <div class="left">
+                        <i class="fab fa-snapchat"></i>
+                        <span>Snapchat</span>
+                    </div>
+
+                    <i class="fas fa-chevron-right"></i>
+
+                </a>
+
+                <a href="#" class="btn whatsapp">
+
+                    <div class="left">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </div>
+
+                    <i class="fas fa-chevron-right"></i>
+
+                </a>
+
+                <a href="#" class="btn phone">
+
+                    <div class="left">
+                        <i class="fas fa-phone"></i>
+                        <span>Call Now</span>
+                    </div>
+
+                    <i class="fas fa-chevron-right"></i>
+
+                </a>
+
+                <a href="#" class="btn location">
+
+                    <div class="left">
+                        <i class="fas fa-location-dot"></i>
+                        <span>Store Location</span>
+                    </div>
+
+                    <i class="fas fa-chevron-right"></i>
+
+                </a>
+
+            </div>
+
+            <!-- Information -->
+
+            <div class="info">
+
+                <div class="info-box">
+
+                    <i class="fas fa-location-dot"></i>
+
+                    <div>
+
+                        <h3>Location</h3>
+
+                        <p>Duhok - Iraq</p>
+
+                    </div>
+
+                </div>
+
+                <div class="info-box">
+
+                    <i class="far fa-clock"></i>
+
+                    <div>
+
+                        <h3>Opening Hours</h3>
+
+                        <p>Saturday – Thursday</p>
+
+                        <strong>9:00 AM – 8:00 PM</strong>
+
+                       <p class="closed"><strong>Friday:</strong> Closed</p>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -96,4 +170,5 @@ Everything you need for swimming & fitness
 <script src="script.js"></script>
 
 </body>
+
 </html>
