@@ -592,3 +592,16 @@ body::after{
     border-bottom:1px solid #f2f2f2;
 
 }
+@media (max-width:768px){
+
+    body{
+
+        background-attachment:scroll;
+
+        background-position:center center;
+
+        background-size:cover;
+
+    }
+
+}
