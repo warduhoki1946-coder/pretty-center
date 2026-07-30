@@ -1,42 +1,15 @@
-// Pretty Center
+document.querySelectorAll(".btn").forEach(button => {
 
-document.addEventListener("DOMContentLoaded", () => {
+    button.addEventListener("click", function(){
 
-    const buttons = document.querySelectorAll(".btn");
+        this.style.transform="scale(.97)";
 
-    buttons.forEach((button) => {
+        setTimeout(()=>{
 
-        button.addEventListener("click", () => {
+            this.style.transform="";
 
-            button.style.transform = "scale(0.97)";
-
-            setTimeout(() => {
-                button.style.transform = "";
-            }, 150);
-
-        });
+        },150);
 
     });
 
 });
-
-// مشاركة الصفحة
-function sharePage() {
-
-    if (navigator.share) {
-
-        navigator.share({
-            title: "Pretty Center",
-            text: "Visit Pretty Center",
-            url: window.location.href
-        });
-
-    } else {
-
-        navigator.clipboard.writeText(window.location.href);
-
-        alert("Page link copied.");
-
-    }
-
-}
