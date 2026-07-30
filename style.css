@@ -198,24 +198,31 @@ h2{
 
     text-decoration:none;
 
-    background:#fff;
+    color:#fff;
 
-    color:#333;
-
-    border:1px solid #ececec;
+    border:none;
 
     border-radius:18px;
 
-    padding:18px 20px;
+    padding:20px 22px;
 
-    margin-bottom:15px;
+    margin-bottom:16px;
 
-    transition:.30s;
+    font-weight:700;
 
-    box-shadow:0 8px 20px rgba(0,0,0,.06);
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 
 }
 
+.btn:hover{
+
+    transform:translateY(-4px) scale(1.02);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.22);
+
+}
 .btn .left{
 
     display:flex;
@@ -225,18 +232,17 @@ h2{
     gap:15px;
 
 }
-
 .btn i{
 
-    font-size:22px;
+    font-size:24px;
 
 }
 
 .btn span{
 
-    font-size:17px;
+    font-size:18px;
 
-    font-weight:600;
+    font-weight:700;
 
 }
 
@@ -246,78 +252,43 @@ h2{
 
     box-shadow:0 15px 35px rgba(0,0,0,.12);
 
-}
+   .instagram{
 
-/* Instagram */
-
-.instagram:hover{
-
-    background:linear-gradient(45deg,#fd5949,#d6249f);
-
-    color:#fff;
-
-    border-color:transparent;
+    background:linear-gradient(90deg,#d62976,#ff6b57);
 
 }
 
-/* TikTok */
-
-.tiktok:hover{
+.tiktok{
 
     background:#111;
 
-    color:#fff;
-
-    border-color:#111;
-
 }
 
-/* Snapchat */
-
-.snapchat:hover{
+.snapchat{
 
     background:#FFD600;
 
     color:#111;
 
-    border-color:#FFD600;
-
 }
 
-/* WhatsApp */
-
-.whatsapp:hover{
+.whatsapp{
 
     background:#25D366;
 
-    color:#fff;
+}
 
-    border-color:#25D366;
+.phone{
+
+    background:#1E88E5;
 
 }
 
-/* Call */
+.location{
 
-.phone:hover{
-
-    background:#1e88e5;
-
-    color:#fff;
-
-    border-color:#1e88e5;
+    background:#356AE6;
 
 }
-
-/* Location */
-
-.location:hover{
-
-    background:#e91e63;
-
-    color:#fff;
-
-    border-color:#e91e63;
-
 }/* ===========================
    Information Section
 =========================== */
