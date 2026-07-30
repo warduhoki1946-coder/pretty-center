@@ -107,7 +107,7 @@ body{
 
     display:block;
 
-    transition:.5s;
+      transition:transform .5s ease;
 
 }
 
@@ -309,7 +309,7 @@ h2{
     background:#356AE6;
 
 }
-}/* ===========================
+/* ===========================
    Information Section
 =========================== */
 
