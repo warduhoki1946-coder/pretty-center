@@ -16,7 +16,17 @@ body{
 
     font-family:'Poppins','Cairo',sans-serif;
 
-    background:linear-gradient(135deg,#ffe8f3,#fff7fb);
+    background-image:
+        linear-gradient(rgba(255,240,247,.78), rgba(255,240,247,.78)),
+        url("cover.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
 
     min-height:100vh;
 
@@ -27,6 +37,8 @@ body{
     padding:35px 15px;
 
     color:#333;
+
+    position:relative;
 
 }
 
@@ -50,14 +62,20 @@ body{
 
     max-width:430px;
 
-    background:#fff;
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.45);
 
     border-radius:30px;
 
     overflow:hidden;
 
     box-shadow:
-    0 15px 45px rgba(0,0,0,.15);
+        0 20px 60px rgba(0,0,0,.18);
 
     animation:fadeUp .8s ease;
 
